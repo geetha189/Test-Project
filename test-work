@@ -1,1 +1,10 @@
+<h1>Hello Worlld</h1>
+
+<script>
+function message()
+{
+    console.log("welocome");
+}
+message();
+</script>
 
