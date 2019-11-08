@@ -1,0 +1,35 @@
+<body>
+    
+    <table>
+         <tbody id="xyz">
+               <tr>
+                   <th>SID</th>
+                   <th>Sname</th>
+                   <th>Total</th>
+              </tr>
+         </tbody>
+    </table>
+    
+    <button onclick=addrows()>Add</button>
+       <script>
+
+           function addrows()
+           {
+             var std=[{ id:101,name:"geetha",per:80},
+               {id:102,name:"rekha",per:90},
+               { id:103,name:"mamatha",per:39},
+                { id:104,name:"karthik",per:30},
+                {id:105,name:"revathi",per:40},
+                {id:106,name:"srinu",per:25},
+               {id:107,name:"Rama",per:35},
+               {id:108,name:"shiv",per:86},
+               {id:109,name:"abhilash",per:15}];
+             std.forEach(function(val,index)
+              {
+                var x="<tr><td>" +val.id +"</td><td>" +val.name +"</td><td>" +val.per +"</td></tr>";
+                 document.getElementById("xyz").innerHTML +=x;
+               });
+           }
+     
+        </script>
+</body>

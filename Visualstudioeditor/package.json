@@ -1,0 +1,21 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fgghh"
+  ],
+  "author": "geetha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

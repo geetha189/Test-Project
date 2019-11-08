@@ -1,0 +1,60 @@
+<!--this usage  of local storage and accessing toother page is accordian.html-->
+<head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+  <body>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Usename</th>   
+          </tr>
+        </thead>
+        <tbody id="xyz">
+        </tbody>
+      </table>
+   <Button onclick="tablesinfo()">clickme</Button> 
+     
+      <script>
+    function tablesinfo()
+    {      
+        //var x=[{id:101,name:'geetha'}];
+        var http =new XMLHttpRequest();
+        http.open('GET','https://jsonplaceholder.typicode.com/users');
+        http.send();
+        http.onreadystatechange=function()
+        {
+            if(this.readyState==4)
+            {
+          //console.log(this.responseText);
+           
+            var res=JSON.parse(this.responseText);
+            //console.log(res);
+            res.forEach(function(val,index)
+              {
+                var x="<tr><td>" +val.id +"</td><td>" +val.name +"</td><td>"+ val.username +"</td><td><Button class='btn-btn-primary abc'onclick=message("+val.id+")>Edit</Button></td></tr>";
+                 document.getElementById("xyz").innerHTML +=x;
+               });
+             }
+        }
+        http.onerror=function(err)
+            {}          
+       }
+    
+       function message(data)
+              {
+               
+               //document.getElementById("abc").location=location.href;
+               localStorage.setItem('id',data);
+               location.href="file:///D:/Visualstudioeditor/accordian.html";
+         }
+       
+
+</script>
+
+  </body>       
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

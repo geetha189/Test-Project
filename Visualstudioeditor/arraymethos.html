@@ -1,0 +1,63 @@
+<script>
+            var a=[{ id:101,name:"geetha",per:80},
+               {id:102,name:"rekha",per:90},
+               { id:103,name:"mamatha",per:39},
+                { id:104,name:"karthik",per:30},
+                {id:105,name:"revathi",per:40},
+                {id:106,name:"srinu",per:25},
+               {id:107,name:"Rama",per:35},
+               {id:108,name:"shiv",per:86},
+               {id:109,name:"abhilash",per:15}];
+//to get ids and names from array objects
+                   function student(m)
+               {
+                 var obj=m.map(function(val,index)
+                       { 
+                        return {id:val.id,name:val.name};
+                       });
+                     return obj;
+                }
+                var x=student(a);
+                console.log(x); 
+//print VBM infotech
+        function welcome()
+        {
+            console.log("Welcome to VBM Infotech");
+        }
+        welcome();
+//All the students are passed or not
+   function checking(m)
+    {
+       var obj=m.every(function(val,index){
+           return val.per>=35;        
+       });
+       return obj;
+    }
+    var qualify =checking(a);
+    console.log(qualify);
+
+//all passed students
+function pass(m)
+{
+   var z= m.filter(function(val, index)
+   {
+      if (val.per>=35)
+      return true;
+   });
+   return z;
+}    
+var b =pass(a);
+console.log(b);
+//all failed students
+function failed(m)
+{
+   var z=m.filter(function(val,index)
+   {
+      if (val.per<35) 
+      return true;                      
+   });
+   return z;
+}
+var b=failed(a);
+console.log(b);
+     </script>

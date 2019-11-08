@@ -1,0 +1,50 @@
+<head>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+      <body>
+            
+          <div id="accordion">
+           
+          <button class="btn-btn-primary" onclick="accordian()">ClickMe</button>
+            </div> 
+          <script>
+        function accordian()
+        {      
+            //var x=[{id:101,name:'geetha'}];
+            var http =new XMLHttpRequest();
+            http.open('GET','https://jsonplaceholder.typicode.com/users');
+            http.send();
+            http.onreadystatechange=function()
+            {
+                if(this.readyState==4)
+                {
+                   //console.log(this.responseText);
+               
+                    var res=JSON.parse(this.responseText);
+                     //console.log(res);
+                     res.forEach(function(val,index)
+                     {
+                      var x ="<div class='card'>" +
+                            "<div class='card-header' id='headingOne'>" +
+                            "<h5 class='mb-0'>"+
+                            "<button class='btn btn-link' data-toggle='collapse' data-target=#collapse"+val.id+" aria-expanded='true' aria-controls='collapseOne'"> +
+                            "Collapsible Group Item #1 </button> </h5></div>"+
+                  
+                            "<div id=collapse"+val.id +"class='collapse show' aria-labelledby='headingOne' data-parent='#accordion'>"+
+                            "<div class='card-body'>"+
+                            "probably haven't heard of them accusamus labore sustainable VHS. </div>   </div>  </div>";
+                            
+                            document.getElementById("accordion").innerHTML=document.getElementById("accordion").innerHTML + x;
+                            
+                     });
+                 }
+            }
+            http.onerror=function(err)
+                {}            
+        }        
+    </script>
+      </body>       
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

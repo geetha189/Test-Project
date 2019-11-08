@@ -1,0 +1,182 @@
+/*  Flipkart bar section*/
+    
+    .explorplus
+       {
+        position:relative;
+        bottom:11px;
+       }
+    .explorplus a
+      {
+        font-size:13px;
+      }
+    .explorplus p
+      {
+        color:white;
+      } 
+    .explorplus span
+      {
+        color:yellow;
+      } 
+    .glyphicon-remove
+      {
+        color:yellow;
+      }
+    .glyphicon glyphicon-search
+      {
+        color:rgb(255, 255, 255);
+      }  
+
+/* categories list  */  
+.categories-listbar
+{
+  background-color:white;
+  height:40px;
+}
+   .categories-listbar ul li a
+    {
+      color:black;
+      font-weight:bold;
+    }
+   .categories-listbar ul li a:hover
+    {
+      color:blue;
+    }
+  .categories-listbar  ul>li
+    {
+      padding-left:60px;
+    }
+            
+ /* Form section  */     
+   
+    .login-container
+    {           
+       height:550px;
+       width:950px;
+       margin-top:20px;
+      
+    }           
+    .login-title
+    {
+        background-image: url('D:/Visualstudioeditor/images/account.png');
+        background-size:cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:100%;
+        width:100%;
+        color:white;
+        padding-left:40px;
+        padding-top:35px;                
+    }                      
+    .login-title h1
+    {
+       font-weight:bold;
+    }
+    .login-title p
+    {
+      font-size: 20px;
+    }
+    .loginform-container
+    {
+      background-color:white;
+      padding-top:40px;
+      padding-left:30px;
+      padding-right:30px;
+    }    
+    form div:first-child
+    {
+      padding-bottom:17px;
+    }
+    .loginform-container input
+    {
+      height:35px;
+      font-size: 17px;
+        }
+    .loginform-container button
+    {
+       width:100%;
+       height:50px;
+       color:white;
+       font-weight:bold;
+       font-size: 17px;
+    }
+    .loginform-container h5
+    {
+     padding-top:20px;
+     padding-bottom:25px;
+    }      
+ .loginform-container div:last-child
+ {
+    position:absolute;
+    bottom:25px;  
+    left:160px;
+ } 
+ .btn-light{
+  background-color: #fa5f30;
+}
+.btn-light:hover{
+  background-color: #fa5f30;
+  color: white;
+}
+.forgetpassword a
+{
+position:relative;
+left:420px;
+}
+
+/* Footer section  */
+   .addressbar
+   {
+      background-color:rgb(15, 23, 70);
+      margin-top:30px;
+      height:270px;          
+    }  
+    .addressbar div
+    { 
+      padding-top:25px;
+      padding-left:30px;            
+    }      
+    .addressbar div p{            
+       color:white;
+    }
+    .addressbar div h5
+    {
+       font-size: 17px;
+       color:rgb(114, 105, 105);
+     }     
+   .addressbar div a
+   {
+      color:white;
+   }        
+   
+  
+/*footer endbar*/
+    .footer-endbar{
+      height:80px;
+      margin-top:1px;
+      background-color:rgb(15, 23, 70);
+      padding-left:15px;
+      padding-right:15px;
+      padding-top :25px;
+    }
+    .footer-endbar ul>li{
+      display:inline;
+      color:white;
+      padding-right:70px;
+    }
+    .footer-endbar ul li a
+    {     
+      color:white;
+    }
+    .footer-endbar ul li i{
+      color:rgb(233, 233, 24);
+    }   
+    .footer-endbar li>i
+    {
+     padding-right:10px;
+    }
+    
+    
+    
+        
+           
+    

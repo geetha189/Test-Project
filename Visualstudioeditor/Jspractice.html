@@ -1,0 +1,38 @@
+
+    <body>
+<script>
+    
+  var std=[{id:101,name:"Geetha",Address:"Hyd"},
+         {id:102,name:"Radha",Address:"Bag"},
+         {id:103,name:"laghu",Address:"Chennei"},
+         {id:104,name:"mama",Address:"culcatta"},
+         {id:105,name:"Rudra",Address:"Pune"},
+         {id:106,name:"revathi",Address:"Mumbai"},
+         {id:107,name:"kavitha",Address:"Goa"},
+         {id:108,name:"Sravani",Address:"Delhi"},
+         {id:109,name:"satya",Address:"Gujarat"},
+         {id:110,name:"Karthik",Address:"Bhopal"},
+         {id:111,name:"Komali",Address:"Vizag"}];
+//names
+std.forEach(function(val,index) {
+console.log(val.name);
+}); 
+//all values
+std.forEach(function(val, index){
+   console.log( Object.values(val));
+   });
+//all keys
+std.forEach(function(val,index){
+    console.log(Object.keys(val));
+  });
+//evenids
+var evenids=std.filter(function(item,index)
+{
+  return (item.id)%2==0;
+   });
+console.log(evenids);       
+    </script>
+    </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

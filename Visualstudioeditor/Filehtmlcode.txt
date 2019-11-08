@@ -1,0 +1,243 @@
+<head>
+    <title>FlipkatAccount</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="D:\Visualstudioeditor\layout.css">
+    <title>Flipkart</title>
+  <link rel="icon"href="D:\Visualstudioeditor\images\flipkart.jpg" type="image/css"/>
+    </head>
+<body  style="background-color: rgba(239, 241, 241, 0.856)">
+
+ <!--Flipkart bar -->
+    <div class="row container-fluid" id="placed">  
+        <div  class="col-md-3" style="padding-left:210px" class="d-flex flex-row-rev">
+            <div > <a href="wwww.google.com" style="text-decoration:none;color:white;font-size:30px" target=_blank>FlipKart</a></div>
+                <div class="explorplus"><a href="wwww.google.com"  target=_blank><p><i>Explore</i><span><i>Plus</i></span><i class="glyphicon glyphicon-remove"></i></i></p></a></div>
+                </div>    
+            <div class="col md-4">
+            <div class="input-group" style="margin-top:15px">
+                <input class="form-control border-secondary py-3" type="search" style="font-size:15px"value="search for products,brands and more">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-light"  type="button">
+                        <i class="glyphicon glyphicon-search" ></i>
+                      </button>
+                  </div>
+             </div>
+        </div>
+        <div class="col-md-5">
+            <ul class="nav justify-content-center" style="margin-top:15px;font-size:20px ">
+                <li class="nav-item">
+                   <a class="nav-link " href="#" style="color: white" >Login&Signup</a>
+                </li>
+                <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" style="color: white"aria-expanded="false">More</a>
+                   <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Notification Preferences</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sell On FLipkart</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">24/7 Customer Care</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Advertise </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Download App </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"style="color: white"><i class="glyphicon glyphicon-shopping-cart"></i>Cart</a>
+                </li>      
+            </ul>
+        </div>
+   </div>
+ <!--categories list bar -->
+    <div class="row container-fluid" style="background-color:white;height:40px">
+        <ul class="nav navbar">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Electronics</a>
+                <div class="dropdown-menu">
+                   <a class="dropdown-item" href="#">A</a>
+                   <a class="dropdown-item" href="#">B</a>
+                   <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">TV& Appliances</a>
+                <div class="dropdown-menu">
+                   <a class="dropdown-item" href="#">A</a>
+                   <a class="dropdown-item" href="#">B</a>
+                   <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Men</a>
+                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">A</a>
+                    <a class="dropdown-item" href="#">B</a>
+                    <a class="dropdown-item" href="#">C</a>
+                 </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Womean</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">A</a>
+                    <a class="dropdown-item" href="#">B</a>
+                    <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Baby&Kids</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">A</a>
+                    <a class="dropdown-item" href="#">B</a>
+                    <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home&Furniture</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">A</a>
+                    <a class="dropdown-item" href="#">B</a>
+                    <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sports,Books&More</a>
+                <div class="dropdown-menu">
+                     <a class="dropdown-item" href="#">A</a>
+                     <a class="dropdown-item" href="#">B</a>
+                     <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+            <li>
+                <a class="nav-item nav-link" href="#">Offer Zone</a>
+            </li>
+        </ul> 
+                
+    </div>
+ <!-- Login Form section-->
+    <div class="row container-fluid login-container">
+        <div class="col-md-2 offset"></div>
+        <div class="col-md-3 login-title-container">
+            <h1><b>Login</b></h1>
+            <h3>Get access to Your Orders,<br>Wishlist and Recommandations</h3>         
+        </div>
+        <div class="col-md-4"> 
+            <form id="space">
+                <div class="form-group">
+                    <label> Enter Email/Mobile Number</label>
+                </div>
+                <div>
+                    <input type="text" class="form-control" class="form-group"name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label"> Enter Password</label>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control"  name="email" id="email">
+                  <a href="#" class="form-group" style="padding-left:420px">Forget?</a>
+                </div>        
+                <div>
+                    <input type="button" class="btn btn-danger btn-lg" name ="submit" value="Login" style="font-size: 20px">
+                </div>
+                <div>
+                    <h4>OR</h4>
+                </div>
+                <div>
+                    <input type="button" class="btn btn-light btn-lg "  value="Request OTP" style="font-size:15px;color:blue">
+                </div>
+                <div >
+                    <a href="#" > New to FlipKart?Crete an account</a>
+                </div>   
+            </form>
+        </div>
+        <div class="col-md-3"></div>    
+    </div>
+ <!--footer section1 -->
+   <footer>    
+     <div  class="row"  class="container-fluid" style="background-color:rgb(15, 23, 70);margin-top:30px;height:270px" class="bottom">
+        <div class="col-md-2">
+            <h5>About</h5><br>
+            <a href="#">Contact Us</a><br>
+            <a href="#">About Us</a><br>
+            <a href="#">Flipkart Stories</a><br>
+            <a href="#">Press</a><br>    
+        </div>
+        <div class="col-md-1">
+           <h5>Help</h5><br>
+           <a href="#">Contact Us</a><br>
+           <a href="#">About Us</a><br>
+           <a href="#">Flipkart Stories</a><br>
+           <a href="#">Press</a>
+        </div>
+
+        <div class="col-md-2">
+            <h5>Policy</h5><br>
+            <a href="#">Contact Us</a><br>
+            <a href="#">About Us</a><br>
+            <a href="#">Flipkart Stories</a><br>
+            <a href="#">Press</a>
+        </div>
+        <div class="col-md-1" class="text-center">
+           <h5>Social</h5><br>
+            <a href="#">Contact Us</a><br>
+           <a href="#">About Us</a><br>
+           <a href="#">Flipkart Stories</a><br>
+           <a href="#">Press</a><br>
+        </div>
+        <div class="col-md-3" class="text-center"style="border-left: 1px solid grey;height:200px">
+           <h5>Mail us:</h5><br>
+           <p>
+             Flipkart Internet Private Limited,<br>
+             Buildings Alyssa, Begonia &<br> 
+             Clove Embassy Tech Village,<br> 
+             Outer Ring Road, Devarabeesanahalli Village,<br>
+             Bengaluru, 560103,<br>
+             Karnataka, India.
+           </p>             
+        </div>
+        <div class="col-md-3" class="text-center">
+            <h5>Registered office address:</h5><br>
+            <p>
+             Flipkart Internet Private Limited,<br>
+             Buildings Alyssa, Begonia &<br>
+             Clove Embassy Tech Village,<br>
+             Outer Ring Road, Devarabeesanahalli Village,<br>
+             Bengaluru, 560103,<br>
+             Karnataka, India<br>
+             CIN : U51109KA2012PTC066107
+             <span>Telephone:<a href="#" style="color:cornflowerblue">9456789304940</a></span>              
+            </p>
+        </div>
+    </div>
+    <!--footer section2 -->
+    <div class="row container-fluid" style="background-color:rgb(15, 23, 70);height:80px;margin-top:1px">
+            <ul class="nav">
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="glyphicon glyphicon-folder-close" style="color:rgb(233, 233, 24)"></i>Sell lipkart</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="glyphicon glyphicon-cog" style="color:rgb(233, 233, 24)">  </i>Advertise</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="glyphicon glyphicon-briefcase" style="color:rgb(233, 233, 24)">  </i>GiftCards</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="glyphicon glyphicon-phone-alt" style="color:rgb(233, 233, 24)"></i>HelpCenter</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#" style="text-decoration: none">© 2007-2019 Flipkart.com.</a>
+                     </li>
+                     <li class="nav-item">
+                            <a class="nav-link" href="#" style="text-decoration: none"><img src="D:\Visualstudioeditor\images\last.png"  height="22px" width="470px"></a>
+                     </li>
+
+              </ul>
+
+    </div>
+    </footer>
+                
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

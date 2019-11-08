@@ -1,0 +1,140 @@
+/*  Flipkart bar section*/
+        #placed{
+            background-color: blue;
+            
+        }
+           .explorplus
+           {
+             position:relative;
+            bottom:11px;
+           }
+           .explorplus a{
+            font-size:13px;
+           }
+           .explorplus p{
+            color:white;
+           } 
+           .explorplus span{
+            color:yellow;
+           } 
+           .glyphicon-remove{
+               color:yellow;
+           }
+
+
+         .glyphicon glyphicon-search{
+            color:rgb(255, 255, 255);
+         }  
+
+/* categories list  */  
+
+         ul li a{
+            color:black;
+            font-weight:bold;
+            }
+            ul li a:hover{
+             color:blue;
+             
+             }
+             ul>li{
+                padding-left:60px;
+            
+    /* Form section  */     
+    .login-container{
+
+        margin-top:30px;
+        height:500px;
+    }
+
+         .login-title-container{
+            background-image: url('D:/Visualstudioeditor/images/account.png');
+            background-size:cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height:100%;
+            width:100%;
+            color:white;
+            padding-left:40px;
+            padding-top:50px;
+            
+        }           
+
+        
+        form{
+            background-color:white;
+        }
+        .btn-danger{
+            background-color:rgb(252, 109, 73);
+        }
+        .btn-lg{
+            width: 470px;
+            height:45px;
+        }
+       
+           h4{
+               text-align: center;
+           } 
+          .mar{
+              margin-top:30px;
+
+          }         
+         
+         
+          
+           .col-md-4
+           {
+               padding-top:30px;
+               background-color:white;
+               
+
+           }
+           #space div{
+               padding-top:10px;
+           }
+           
+           #space div:last-child{
+            padding-top:100px;
+            text-align:center;
+           }
+          
+
+    
+    
+}
+   
+           
+           /* Footer section  */  
+           
+            footer div {
+                
+                 padding-top:25px;
+                 padding-left:30px;
+                 
+            } 
+            footer div p{
+                
+                color:white;
+           }
+           footer div h5{
+                font-size: 17px;
+                color:rgb(114, 105, 105);
+           }
+           
+            footer div a{
+                color:white;
+                
+            }                      
+
+           footer div a:hover{
+               color:white;
+           }
+         footer  ul>li{
+    padding-left:60px;
+    }
+    .footer {
+        padding-left:30px;
+    }
+    
+        
+           
+    

@@ -1,0 +1,98 @@
+<script>
+    //check the datatype of give n
+ function type(m)
+    {
+      var z=typeof m;
+     //console.log(z);
+      if (z=="boolean")  
+        {
+            console.log("given variable is boolean datatype" +"  " +m);
+         }  
+     else if(z=="object")
+       {
+        console.log("given variable is object datatype" +"  " +m);
+       }
+     else if(z=="number")
+        {
+        console.log("given variable is number datatype" +"  " +m);
+         }
+     else 
+       {
+        console.log("given variable is string datatype" +"   " +m);
+      }
+
+    }
+    type(10);
+    type(true);
+    var a=[1,2,3,4,5];
+    type(a);
+    type("geetha");
+    //display day bases on the given number
+    function weekdays(m)
+    {
+        var a=["sun","Mon","tue","wed","Thu","Fri","sat"];
+        console.log(a[m]);
+   
+    }
+weekdays(3);
+//display day using switch
+function weekdays(m)
+{
+    switch(m)
+    {
+        case 0:console.log("Sun");
+                break;
+        case 1 :console.log("Mon");
+                break; 
+        case 2:console.log("Tue");
+                break;
+        case 3 :console.log("Wed");
+                break;   
+        case 4 :console.log("Thu");
+                break; 
+        case 5:console.log("Fri");
+                break;
+        case 6 :console.log("Sat");
+                break;           
+    }
+}
+weekdays(0);
+weekdays(1);
+weekdays(2);
+weekdays(3);
+weekdays(4);
+weekdays(5);
+weekdays(6);
+
+//to display student grade
+function grade(m)
+{
+    if (m>80 && m<=100)
+    {
+        console.log("distntion");
+    }
+       else if(m>75 && m<80)
+    {
+        console.log("A grade");
+    }
+    else if(m>60 && m<75)
+        {
+            cosole.log("B Grade");
+        }
+    else if(m>45 &&m<60)    
+    {
+        console.log(" C grade")
+    }
+    else if(m>35 && m<45)
+    {
+        console.log("D grade");
+    }
+    else
+    {
+        console.log("fail");
+    }
+}
+grade (100);
+    
+</script>
+
